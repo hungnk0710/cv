@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet  " href="./css/font.css" />
+    <link rel="stylesheet" href="./css/table.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+
+    <!-- CÀI ĐẶT Bootstrap 5.0 -->
+    <!-- em sử dụng ở một vài nút ạ -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>CV Nguyễn Khánh Hưng</title>
+  </head>
+  <body>
+    <div id="banner">
+      <img class="imgbanner" src="./images/banner.jpg" alt="bannercv" />
+      <div class="name">
+        <h1>Nguyễn Khánh Hưng</h1>
+        <span>Java Developer</span>
+      </div>
+    </div>
+
+    <section id="nav-bar">
+      <nav class="container-navbar">
+        <a href="#"><i class="icon-user"></i>Thông tin</a>
+        <a href="#personal-info"><i class="icon-doc-text-inv"></i>Lý lịch</a>
+        <div class="ava">
+          <img src="./images/avatarcv.jpg" alt="avatarcv" class="avtarcv" />
+        </div>
+
+        <a href="#certificate"><i class="icon-mail-alt"></i>Chứng chỉ</a>
+        <a href="#project"><i class="icon-star-1"></i>Dự Án</a>
+      </nav>
+    </section>
+
+    <section id="about" class="bg-grey">
+      <div class="target-info">
+        <div id="target">
+          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <b>Java Developer</b>, có thể vận dụng những kiến thức đã được trau
+            dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn
+            thành tốt nhất công việc được giao.
+          </p>
+        </div>
+        <div id="personal-info">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <div id="nhap">
+            <input
+              type="text"
+              required
+              id="input-nhap"
+              placeholder="Enter email"
+            />
+            <p class="error-email hidden">Lỗi email</p>
+            <p id=""></p>
+            <p class="thongbaonhapmail">Hãy nhập email để xác thực</p>
+            <button id="bt-kiemtra" type="button" class="btn btn-primary">
+              Submit
+            </button>
+          </div>
+          <div id="thongtin">
+            <ul class="mt-40 info">
+              <li><span>Giới tính</span> : Nam</li>
+              <li><span>Ngày sinh</span> : 07/10/2000</li>
+              <li><span>Điện thoại</span> : +84334901811</li>
+              <li class="email"><span>Email</span> : nkh07102000@gmail.com</li>
+              <li><span>Địa chỉ</span> : Tây Mỗ, Nam Từ Liêm, Hà Nội.</li>
+              <!-- <li><span>Website</span> : https://abc.tech</li> -->
+            </ul>
+            <br />
+            <a href="#" rel="twitter"><i class="icon-twitter"></i></a>
+            <a
+              href="https://www.facebook.com/nkh07102000/"
+              target="_blank"
+              rel="facebook"
+              ><i class="icon-facebook"></i
+            ></a>
+            <a href="#" rel="gplus"><i class="icon-gplus"></i></a>
+            <a href="#" rel="linkedin"><i class="icon-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="job-info">
+        <div class="kinhnghiem" id="show-hidden1">
+          <div class="jobinfo-navbar">
+            <h1>Kinh nghiệm</h1>
+            <i class="ic-toolbox" style="font-size: 36px"></i>
+          </div>
+          <div class="job-info1" id="section-content" style="margin-top: 20px">
+            <ul id="kn-detail1" class="ulJobInfo">
+              <li>
+                <span>CÔNG TY LAMFASHION</span>
+                <p class="namkinhnghiem">05/2018 - 08/2018</p>
+                <p>Vị trí: Nhân viên kinh doanh</p>
+
+                <p>- Quản lý, giám sát tạo đội ngũ.</p>
+
+                <p>
+                  - Kiểm tra các hoạt động kinh doanh cũng như chương trình
+                  khuyến mãi
+                </p>
+              </li>
+              <li>
+                <span>CÔNG TY NABA</span>
+                <p class="namkinhnghiem">07/2022 - 09/2022</p>
+                <p>Vị trí: Nhân viên giám sát</p>
+
+                <p>- Giám sát công việc phòng máy và các hoạt động trên máy.</p>
+
+                <p>- Lập báo cáo khối lượng công việc hàng ngày.</p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+          <div class="control-view">
+            <button class="btn btn-info view-more1" type="button">
+              View more
+            </button>
+            <button class="btn btn-info view-less1 hidden" type="button">
+              View less
+            </button>
+          </div>
+        </div>
+        <div class="hocvan" id="show-hidden2">
+          <div class="jobinfo-navbar">
+            <h1>Học vấn</h1>
+            <i class="ic-pencil" style="font-size: 36px"></i>
+          </div>
+          <div class="job-info2" id="section-content" style="margin-top: 20px">
+            <ul id="kn-detail2" class="ulJobInfo">
+              <li>
+                <span>Trường THPT Trung Văn</span>
+                <p class="namkinhnghiem">05/2018 - 08/2018</p>
+
+                <p>-Tốt nghiệp loại giỏi.</p>
+
+                <p>-GPA: 9/10</p>
+              </li>
+              <li>
+                <span>Đại Học Công Nghệ Giao Thông Vận Tải</span>
+                <p class="namkinhnghiem">08/2018 - 07/2022</p>
+                <p>Chuyên ngành: Điện Tử Viễn Thông</p>
+
+                <p>-Tốt nghiệp loại giỏi.</p>
+
+                <p>-GPA: 9/10</p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+          <div class="control-view">
+            <button class="btn btn-info view-more2" type="button">
+              View more
+            </button>
+            <button class="btn btn-info view-less2 hidden" type="button">
+              View less
+            </button>
+          </div>
+        </div>
+        <div class="hoatdong" id="show-hidden3">
+          <div class="jobinfo-navbar">
+            <h1>Hoạt động</h1>
+            <i class="ic-toolbox" style="font-size: 36px"></i>
+          </div>
+          <div class="job-info3" id="section-content" style="margin-top: 20px">
+            <ul id="kn-detail3" class="ulJobInfo">
+              <li>
+                <span>Giải bóng đá cấp trường</span>
+                <p class="namkinhnghiem">03/2017 - 04/2017</p>
+
+                <p>-Giải thưởng trong lòng người hâm mộ.</p>
+
+                <p>-Giải tôn vinh lối chơi đẹp.</p>
+              </li>
+              <li>
+                <span>Câu lạc bộ Dancesport</span>
+                <p class="namkinhnghiem">08/2016 - 09/2016</p>
+
+                <p>-Người điều hành.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="control-view">
+            <button class="btn btn-info view-more3" type="button">
+              View more
+            </button>
+            <button class="btn btn-info view-less3 hidden" type="button">
+              View less
+            </button>
+          </div>
+        </div>
+        <div class="sothich-info" id="show-hidden4">
+          <div class="jobinfo-navbar">
+            <h1>Sở thích</h1>
+            <i class="ic-telescope" style="font-size: 36px"></i>
+          </div>
+          <div class="job-info4" id="section-content" style="margin-top: 20px">
+            <nav id="kn-detail4" class="ulJobInfo">
+              <i class="ic-megaphone" style="font-size: 24px"></i>
+              <i class="ic-strategy" style="font-size: 24px"></i>
+              <i class="ic-hotairballoon" style="font-size: 24px"></i>
+              <i class="ic-basket" style="font-size: 24px"></i>
+            </nav>
+          </div>
+          <div class="control-view">
+            <button class="btn btn-info view-more4" type="button">
+              View more
+            </button>
+            <button class="btn btn-info view-less4 hidden" type="button">
+              View less
+            </button>
+          </div>
+        </div>
+        <div class="ngonngu" id="show-hidden5">
+          <div class="jobinfo-navbar">
+            <h1>Ngôn ngữ</h1>
+            <i class="ic-mic" style="font-size: 36px"></i>
+          </div>
+          <div class="job-info5" id="section-content" style="margin-top: 20px">
+            <nav id="kn-detail5" class="ulJobInfo">
+              <p>Tiếng Anh</p>
+              <span></span>
+              <span></span>
+              <span id="ngonngu1"></span>
+              <br /><br />
+              <p>Tiếng Nhật</p>
+              <span></span>
+              <span id="ngonngu1"></span>
+              <span id="ngonngu1"></span>
+            </nav>
+          </div>
+          <div class="control-view">
+            <button class="btn btn-info view-more5" type="button">
+              View more
+            </button>
+            <button class="btn btn-info view-less5 hidden" type="button">
+              View less
+            </button>
+          </div>
+        </div>
+        <div class="kynang" id="show-hidden6">
+          <div class="jobinfo-navbar">
+            <h1>Kỹ năng</h1>
+            <i class="ic-tools-2" style="font-size: 36px"></i>
+          </div>
+          <div class="job-info6" id="section-content" style="margin-top: 20px">
+            <nav id="kn-detail6" class="ulJobInfo">
+              <p>HTML/CSS: Fundamental</p>
+              <span></span>
+              <span id="kynang1"></span>
+              <span id="kynang1"></span>
+              <br /><br />
+              <p>Javascript: Intermediate</p>
+              <span></span>
+              <span></span>
+              <span id="kynang1"></span>
+              <br /><br />
+              <p>NodeJS: Intermediate</p>
+              <span></span>
+              <span id="kynang1"></span>
+              <span id="kynang1"></span>
+              <br /><br />
+              <p>Bootstrap: Fundamental</p>
+              <span></span>
+              <span></span>
+              <span id="kynang1"></span>
+            </nav>
+          </div>
+          <div class="control-view">
+            <button class="btn btn-info view-more6" type="button">
+              View more
+            </button>
+            <button class="btn btn-info view-less6 hidden" type="button">
+              View less
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificate" class="bg-grey">
+      <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+      <div class="chungchigiathuong1">
+        <div class="giaithuong1">
+          <img src="./images/Cert_DBI.png" alt="giathuong1" />
+          <div>
+            <span>Chứng chỉ lập trình web - funix</span>
+            <p>- Chứng chỉ thuộc chương trình CCDN</p>
+            <p>- Gpa: 8.6</p>
+          </div>
+        </div>
+        <div class="giaithuong1" id="giaithuong1">
+          <img src="./images/Cert_DBI.png" alt="giathuong1" />
+          <div>
+            <span>Chứng chỉ lập trình web - funix</span>
+            <p>- Chứng chỉ thuộc chương trình CCDN</p>
+            <p>- Gpa: 8.6</p>
+          </div>
+        </div>
+      </div>
+      <div class="chungchigiathuong2">
+        <div class="giaithuong2">
+          <img src="./images/Cert_DBI.png" alt="giathuong1" />
+          <div>
+            <span>Chứng chỉ lập trình web - funix</span>
+            <p>- Chứng chỉ thuộc chương trình CCDN</p>
+            <p>- Gpa: 8.6</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <h1 class="section-title">
+        Dự án
+        <button type="button" class="btn btn-secondary">
+          <a href="/indexx.html">Read more</a>
+        </button>
+      </h1>
+      <div class="duan">
+        <div class="duan1">
+          <img src="./images/project_1.png" alt="imgduan" />
+          <div class="duan12">CV cá nhân</div>
+          <div class="duan11">
+            <p class="namduan">2021</p>
+            <p><i class="icon-user-1"></i>FUNiX</p>
+            <p><i class="icon-lamp"></i>Developer</p>
+          </div>
+          <table class="duan13">
+            <tr class="duan131">
+              <td>Mô tả</td>
+              <td>
+                Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như
+                kỹ năng nghề nghiệp.
+              </td>
+            </tr>
+            <tr class="duan131">
+              <td>Nhiệm vụ</td>
+              <td>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+            </tr>
+            <tr class="duan131">
+              <td>Công nghệ</td>
+              <td>- HTML, CSS</td>
+            </tr>
+          </table>
+        </div>
+        <div class="duan1">
+          <img src="./images/project_2.png" alt="imgduan" />
+          <div class="duan12">Trang web quản lý thú cưng</div>
+          <div class="duan11">
+            <p class="namduan">2021</p>
+            <p><i class="icon-user-1"></i>FUNiX</p>
+            <p><i class="icon-lamp"></i>Developer</p>
+          </div>
+          <table class="duan13">
+            <tr>
+              <td>Mô tả</td>
+              <td>
+                Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng,
+                giống, tình trạng tiêm chủng,... Bao gồm các chức năng thêm/
+                sửa/ xóa.
+              </td>
+            </tr>
+            <tr>
+              <td>Nhiệm vụ</td>
+              <td>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+            </tr>
+            <tr>
+              <td>Công nghệ</td>
+              <td>- HTML, CSS, Javascript</td>
+            </tr>
+          </table>
+        </div>
+        <div class="duan1">
+          <img src="./images/project_3.png" alt="imgduan" />
+          <div class="duan12">Trang web tin tức</div>
+          <div class="duan11">
+            <p class="namduan">2021</p>
+            <p><i class="icon-user-1"></i>FUNiX</p>
+            <p><i class="icon-lamp"></i>Developer</p>
+          </div>
+          <table class="duan13">
+            <tr>
+              <td>Mô tả</td>
+              <td>
+                Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có
+                thể tìm kiếm các tin tức dụa theo các từ khóa.
+              </td>
+            </tr>
+            <tr>
+              <td>Nhiệm vụ</td>
+              <td>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+            </tr>
+            <tr>
+              <td>Công nghệ</td>
+              <td>- HTML, CSS, Javascript</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-grey">
+      <div class="lienhe">
+        <p>
+          <a
+            href="https://www.facebook.com/nkh07102000/"
+            rel="facebook"
+            target="_blank"
+            ><i
+              class="icon-facebook-circled"
+              style="color: rgb(13, 137, 200)"
+            ></i
+          ></a>
+        </p>
+        <p>
+          <a href="#" rel="Linkedin"
+            ><i
+              class="icon-linkedin-circled"
+              style="color: rgb(13, 137, 200)"
+            ></i
+          ></a>
+        </p>
+        <p>
+          <a href="#" rel="Github"
+            ><i class="icon-github-circled" style="color: rgb(13, 137, 200)"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

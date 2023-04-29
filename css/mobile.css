@@ -1,0 +1,63 @@
+/* Mobile */
+@media (max-width: 768px) {
+  .name {
+    font-size: smaller;
+  }
+  .avtarcv {
+    display: none;
+  }
+  .container-navbar {
+    height: auto;
+    display: block;
+  }
+  .container-navbar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  .target-info {
+    display: block;
+  }
+  #target {
+    padding: 20px;
+  }
+  #personal-info {
+    padding: 20px;
+  }
+  .job-info {
+    display: block;
+  }
+  .giaithuong1 {
+    display: block;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .giaithuong1 img {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .giaithuong2 img {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  #giaithuong1 {
+    border: none;
+  }
+  .giaithuong2 {
+    display: block;
+  }
+  .chungchigiathuong1 {
+    display: block;
+  }
+  .chungchigiathuong2 {
+    display: block;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .duan {
+    display: block;
+  }
+  .lienhe {
+    text-align: center;
+  }
+}

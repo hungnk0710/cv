@@ -1,0 +1,28 @@
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #target {
+    padding: 60px 30px;
+  }
+  #personal-info {
+    padding: 60px 30px;
+  }
+  .avtarcv {
+    display: none;
+  }
+  .job-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .giaithuong1 {
+    display: block;
+  }
+  .giaithuong2 {
+    display: block;
+  }
+  .lienhe {
+    text-align: center;
+  }
+  .duan {
+    grid-template-columns: 50% 50%;
+  }
+}
